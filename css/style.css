@@ -541,7 +541,7 @@ a:focus {
 }
 
 .bg-img {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(../img/page-header.jpg);
 }
 
@@ -2147,19 +2147,53 @@ a:focus {
 /* news section */
 .blog > .container > .section-header {
   max-width: 90%;
-  border: 1px solid #000;
   margin: 0 0 10px 0;
   color: #000000;
 }
+
 .blog > .container {
   /* border: 1px solid red; */
 }
+
 .blog > .container > .section-header p {
-  font-size: 1em;
+  font-size: 1.1em;
   color: #000000;
 }
+
+.blog > .container > .section-header h2 {
+  font-size: 2em;
+}
+
 .news-container {
   padding: 0 5rem;
   text-align: center;
-  /* border: 1px solid #000; */
+  margin-top: 30px;
+}
+
+.news-paragraph {
+  margin-top: 20px;
+}
+
+.war-title{
+  color: #999999;
+}
+
+.page-header > .container > .row  h2::after{
+  content: "";
+  width: 0px;
+}
+
+.war-photo {
+  /* max-height: 500px; */
+  max-width: 500px;
+}
+
+.news-sub-heading {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.highlight{
+  color: #fdbe33;
 }
