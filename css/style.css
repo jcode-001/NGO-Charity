@@ -891,7 +891,7 @@ a:focus {
   margin-right: -15px;
 }
 
-.causes .causes-item {
+.causes .causes-item {  
   margin: 0 15px;
   overflow: hidden;
   background: #f3f6ff;
@@ -902,6 +902,7 @@ a:focus {
 }
 
 .causes .causes-img img {
+  height: 200px;
   width: 100%;
   transition: 0.3s;
 }
@@ -2174,11 +2175,11 @@ a:focus {
   margin-top: 20px;
 }
 
-.war-title{
+.war-title {
   color: #999999;
 }
 
-.page-header > .container > .row  h2::after{
+.page-header > .container > .row h2::after {
   content: "";
   width: 0px;
 }
@@ -2194,6 +2195,6 @@ a:focus {
   margin-bottom: 10px;
 }
 
-.highlight{
+.highlight {
   color: #fdbe33;
 }
